@@ -11,7 +11,6 @@ namespace StaticWebSiteMVC.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            string deneme = "";
             return View();
         }
         [Route("About")]
