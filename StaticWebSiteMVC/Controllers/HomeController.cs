@@ -16,6 +16,7 @@ namespace StaticWebSiteMVC.Controllers
         [Route("About")]
         public ActionResult About()
         {
+
             return View();
         }
         [Route("Products")]
